@@ -1,21 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
-/* This 
-is 
-a comment! */
-
-/* CSS Syntax:
-
-selector {
-  property: value;
-  property: value;
-}
-
-*/
-
-/* Type selector */
-
 p { /* select all <p> */
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
@@ -29,6 +14,19 @@ figcaption {
   font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
   color: #777;
   text-align: right;
+}
+
+/*////////// MEDIA ///////////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+/*////////// LAYOUT STYLES ///////////*/
+
+.row {
+  margin-bottom: 20px;
 }
 
 /* Class selector (applied to as many elements as you like) */
